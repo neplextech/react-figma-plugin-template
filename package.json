@@ -1,0 +1,51 @@
+{
+  "name": "simple-figma-ui",
+  "version": "1.0.0",
+  "description": "Figma plugin to easily import prebuilt ui components",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn build:ui && yarn build:plugin",
+    "dev": "run-s build:plugin dev:ui",
+    "build:plugin": "tsup",
+    "dev:ui": "vite",
+    "build:ui": "tsc && vite build",
+    "preview:ui": "vite preview",
+    "format": "prettier --write \"./src/**/*.{js,ts,jsx,tsx,html,css}\" \"./*.{js,ts}\""
+  },
+  "author": "skdhg",
+  "license": "MIT",
+  "packageManager": "yarn@3.3.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neplextech/simple-figma-ui.git"
+  },
+  "keywords": [
+    "figma",
+    "ui",
+    "plugin",
+    "component",
+    "api",
+    "library",
+    "design"
+  ],
+  "bugs": {
+    "url": "https://github.com/neplextech/simple-figma-ui/issues"
+  },
+  "homepage": "https://github.com/neplextech/simple-figma-ui#readme",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.57.1",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.3",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.0",
+    "vite-plugin-singlefile": "^0.13.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

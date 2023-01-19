@@ -1,0 +1,10 @@
+{
+  "name": "simple-figma-ui",
+  "id": "1197851269086536602",
+  "api": "1.0.0",
+  "main": "dist/index.js",
+  "editorType": [
+    "figma"
+  ],
+  "ui": "build/index.html"
+}

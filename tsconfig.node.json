@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES6"],
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "forceConsistentCasingInFileNames": true,
+    "newLine": "lf",
+    "declaration": false,
+    "removeComments": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@figma"
+    ]
+  },
+  "include": ["./src/plugin/**/*.ts"]
+}
