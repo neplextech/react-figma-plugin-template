@@ -1,6 +1,6 @@
-# Simple Figma UI
+# React Figma Plugin Template
 
-Figma plugin to easily import prebuilt ui components.
+A figma plugin template using react, typescript, vite.
 
 # Support
 
